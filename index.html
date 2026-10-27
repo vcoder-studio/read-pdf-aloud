@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Read PDF Aloud – Free PDF Text to Speech Reader for Chrome</title>
+  <meta name="description" content="Listen to any PDF in your browser. Read PDF Aloud reads PDF files out loud, highlights each sentence and reads two-column research papers in the right order. Free for the first 4 pages, no sign-up, your file is not uploaded.">
+  <link rel="canonical" href="https://vcoder-studio.github.io/read-pdf-aloud/">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#0b0f19">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Read PDF Aloud – Free PDF Text to Speech in Your Browser">
+  <meta property="og:description" content="Drop in a PDF, press Play, follow the highlighted sentence. Reads two-column papers in the right order. Free for 4 pages, no sign-up.">
+  <meta property="og:url" content="https://vcoder-studio.github.io/read-pdf-aloud/">
+  <meta property="og:image" content="https://vcoder-studio.github.io/read-pdf-aloud/icon.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Read PDF Aloud: PDF Text to Speech & Voice Reader",
+    "alternateName": "Read PDF Aloud",
+    "applicationCategory": "UtilitiesApplication",
+    "applicationSubCategory": "PDF text to speech reader",
+    "operatingSystem": "Google Chrome (Windows, macOS, ChromeOS, Linux)",
+    "url": "https://vcoder-studio.github.io/read-pdf-aloud/",
+    "installUrl": "https://chromewebstore.google.com/detail/read-pdf-aloud-pdf-text-t/dpombnoddjohiickoanmelbkcdlemaca",
+    "image": "https://vcoder-studio.github.io/read-pdf-aloud/icon.png",
+    "description": "Read PDF Aloud is a free browser extension that reads PDF files out loud with text-to-speech, highlights each sentence as it is read, reads two-column research papers column by column and picks a voice that matches the language of the document. The PDF is processed in the browser and is not uploaded.",
+    "featureList": [
+      "Reads PDF files out loud with the text-to-speech voices of the browser and operating system",
+      "Highlights the sentence being read; click any sentence to start from there",
+      "Reads two-column research papers one column at a time",
+      "Skips running headers, footers and page numbers",
+      "Picks a voice that matches the language of the PDF",
+      "Speed from 0.8x to 2x, remembers where you stopped"
+    ],
+    "publisher": { "@type": "Organization", "name": "Vcoder Studio", "email": "client.care@tutamail.com" },
+    "offers": [
+      { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free: the first 4 pages of any PDF" },
+      { "@type": "Offer", "price": "9.99", "priceCurrency": "USD", "description": "PRO: documents up to 100 pages, one-time payment, lifetime access, 30-day money-back guarantee" }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How do I make Chrome read a PDF out loud?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Install the free Read PDF Aloud extension, click its icon in the toolbar, drop your PDF into the reader page and press Play. The extension reads the text aloud and highlights each sentence as it goes." } },
+      { "@type": "Question", "name": "Can I listen to a PDF for free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. The free version of Read PDF Aloud reads the first 4 pages of any PDF, with highlighting and all playback controls. PRO ($9.99, one-time payment) reads documents up to 100 pages." } },
+      { "@type": "Question", "name": "Does Read PDF Aloud read two-column research papers correctly?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. It detects two-column layouts, common in journals and arXiv papers, and reads each column from top to bottom instead of jumping across columns." } },
+      { "@type": "Question", "name": "Is my PDF uploaded anywhere?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. The PDF is opened and processed inside your browser and is never uploaded to our servers. There is no account, no tracking and no ads." } },
+      { "@type": "Question", "name": "Does it work offline?",
+        "acceptedAnswer": { "@type": "Answer", "text": "It depends on the voice. The PDF is always processed in your browser, but browser voices such as Google voices in Chrome need an internet connection. Voices installed on your computer usually work without one." } },
+      { "@type": "Question", "name": "Can it read scanned PDFs?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Not yet. A scanned PDF is a set of page images with no real text inside, so there is nothing to read aloud." } },
+      { "@type": "Question", "name": "Which voices can I use?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Any text-to-speech voice built into your browser or installed on Windows, macOS or ChromeOS. The extension picks a voice that matches the language of your document, and you can change it at any time." } },
+      { "@type": "Question", "name": "What is the biggest PDF it can read?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Files up to 50 MB. The free version reads the first 4 pages; PRO reads documents up to 100 pages." } }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrap head-row">
+      <a class="brand" href="#top"><img src="icon.png" alt="" width="30" height="30"> Read PDF Aloud</a>
+      <nav>
+        <a href="#how">How it works</a>
+        <a href="#compare">Compare</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-primary store-link" href="https://chromewebstore.google.com/detail/read-pdf-aloud-pdf-text-t/dpombnoddjohiickoanmelbkcdlemaca?utm_source=site&amp;utm_medium=header">Add to Chrome</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Free browser extension · PDF text to speech</p>
+          <h1>Read PDF Aloud: listen to any PDF in your browser</h1>
+          <p class="lead"><strong>Read PDF Aloud</strong> is a free Chrome extension that reads PDF files out loud and highlights each sentence as it's read. Drop in a research paper, textbook or report, press Play and follow along. No sign-up, and your file is not uploaded.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg store-link" href="https://chromewebstore.google.com/detail/read-pdf-aloud-pdf-text-t/dpombnoddjohiickoanmelbkcdlemaca?utm_source=site&amp;utm_medium=hero">Add to Chrome — free</a>
+            <a class="btn btn-ghost btn-lg" href="#demo">Try the voice ↓</a>
+          </div>
+          <ul class="facts">
+            <li>Free: first 4 pages</li>
+            <li>PRO: up to 100 pages, $9.99 once</li>
+            <li>Files up to 50 MB</li>
+          </ul>
+        </div>
+
+        <div class="player" id="demo" aria-label="Live demo of sentence highlighting">
+          <div class="player-bar">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="player-title">sample-paper.pdf · page 1</span>
+          </div>
+          <div class="page" id="demoText">
+            <p>Listening is a simple way to get through long documents. Read PDF Aloud turns the text of your PDF into speech and highlights the sentence you are hearing. Click any sentence to jump to it. Two-column papers are read one column at a time, so the sentences stay in order. Headers, footers and page numbers are skipped.</p>
+          </div>
+          <div class="controls">
+            <button type="button" class="play" id="demoPlay" aria-label="Play">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path id="demoIcon" d="M8 5v14l11-7z" fill="currentColor"/></svg>
+            </button>
+            <label class="voice">Voice
+              <select id="demoVoice"><option>Loading voices…</option></select>
+            </label>
+          </div>
+          <p class="player-note" id="demoNote">This demo uses the voices of your own browser, just like the extension.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section" id="how">
+      <h2>How to read a PDF aloud in Chrome</h2>
+      <ol class="steps">
+        <li><span>1</span><div><h3>Install the extension</h3><p>Add Read PDF Aloud from the Chrome Web Store and pin its icon to the toolbar.</p></div></li>
+        <li><span>2</span><div><h3>Open your PDF</h3><p>Click the icon, then drag and drop a PDF from your computer (up to 50 MB) or click to choose a file.</p></div></li>
+        <li><span>3</span><div><h3>Press Play</h3><p>The text is read aloud and the current sentence is highlighted. Pause, skip a sentence or change the speed at any time.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="wrap section">
+      <h2>What it does</h2>
+      <div class="features">
+        <article><h3>Reads two-column papers in order</h3><p>Journals and arXiv papers often use two columns. Read PDF Aloud detects them and reads each column from top to bottom instead of mixing lines.</p></article>
+        <article><h3>Follow along with highlighting</h3><p>The sentence being read is highlighted, and with voices that support it, so is the current word. Click any sentence to start from there.</p></article>
+        <article><h3>Skips page clutter</h3><p>Running headers, footers and page numbers at the top and bottom of each page are skipped, so you hear the main text.</p></article>
+        <article><h3>A voice for your document's language</h3><p>The extension detects the language of the PDF and picks a voice that speaks it. Your choice of voice is remembered for each language.</p></article>
+        <article><h3>Speed and position</h3><p>Set the speed from 0.8x to 2x. The extension remembers which page you stopped on in each document.</p></article>
+        <article><h3>Your file stays on your computer</h3><p>The PDF is opened inside your browser and never uploaded to our servers. No account, no tracking, no ads.</p></article>
+      </div>
+    </section>
+
+    <section class="wrap section prose">
+      <h2>Who it's for</h2>
+      <p><strong>Students</strong> who read textbooks and research papers. <strong>Professionals</strong> who work through long reports and contracts. <strong>Language learners</strong> who want to hear a text while reading it. And anyone who prefers to listen, including people with dyslexia or ADHD, or anyone whose eyes are tired of the screen.</p>
+    </section>
+
+    <section class="wrap section" id="pricing">
+      <h2>Free vs PRO</h2>
+      <div class="plans">
+        <div class="plan">
+          <h3>Free</h3>
+          <p class="price">$0</p>
+          <ul>
+            <li>First 4 pages of any PDF</li>
+            <li>Sentence highlighting</li>
+            <li>All playback controls and voices</li>
+            <li>No sign-up</li>
+          </ul>
+          <a class="btn btn-ghost store-link" href="https://chromewebstore.google.com/detail/read-pdf-aloud-pdf-text-t/dpombnoddjohiickoanmelbkcdlemaca?utm_source=site&amp;utm_medium=pricing">Add to Chrome</a>
+        </div>
+        <div class="plan plan-pro">
+          <h3>PRO</h3>
+          <p class="price">$9.99 <small>one-time</small></p>
+          <ul>
+            <li>Documents up to 100 pages</li>
+            <li>Lifetime access, no subscription</li>
+            <li>30-day money-back guarantee</li>
+            <li>Upgrade inside the extension</li>
+          </ul>
+          <a class="btn btn-primary store-link" href="https://chromewebstore.google.com/detail/read-pdf-aloud-pdf-text-t/dpombnoddjohiickoanmelbkcdlemaca?utm_source=site&amp;utm_medium=pricing-pro">Start free, upgrade anytime</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section prose" id="compare">
+      <h2>Ways to read a PDF aloud</h2>
+      <p>There are several ways to have a PDF read to you. Here is how they differ.</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Option</th><th>Where it works</th><th>How to start</th><th>Your file</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Read PDF Aloud</strong> (this extension)</td><td>Google Chrome</td><td>Click the icon, drop in the PDF, press Play</td><td>Stays in your browser</td></tr>
+            <tr><td>Read aloud in Microsoft Edge</td><td>Microsoft Edge (built in)</td><td>Open the PDF in Edge, right-click, choose <em>Read aloud</em> (Ctrl+Shift+U)</td><td>Opened in Edge</td></tr>
+            <tr><td>Read Out Loud in Adobe Acrobat Reader</td><td>Acrobat Reader desktop app</td><td><em>View → Activate Read Out Loud</em></td><td>Opened in the app</td></tr>
+            <tr><td>Online text-to-speech websites</td><td>Any browser</td><td>Upload the PDF or paste the text</td><td>Usually sent to the website's server</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Choose Read PDF Aloud if you use Chrome, read two-column papers, or want a voice that matches the document's language without changing settings.</p>
+    </section>
+
+    <section class="wrap section prose" id="voices">
+      <h2>About voices</h2>
+      <p>Read PDF Aloud uses the text-to-speech voices of your browser and operating system. In Google Chrome, voices that start with "Google" usually sound the most natural; they need an internet connection. You can add free voices to Windows, macOS or ChromeOS: the <em>Add Voices</em> button in the player shows you how.</p>
+    </section>
+
+    <section class="wrap section prose" id="faq">
+      <h2>Frequently asked questions</h2>
+      <details open><summary>How do I make Chrome read a PDF out loud?</summary>
+        <p>Install the free Read PDF Aloud extension, click its icon in the toolbar, drop your PDF into the reader page and press Play. The text is read aloud and each sentence is highlighted as it goes.</p></details>
+      <details><summary>Can I listen to a PDF for free?</summary>
+        <p>Yes. The free version reads the first 4 pages of any PDF, with highlighting and all playback controls. PRO ($9.99, one-time payment) reads documents up to 100 pages.</p></details>
+      <details><summary>Does it read two-column research papers correctly?</summary>
+        <p>Yes. Two-column layouts, common in journals and arXiv papers, are detected and read one column at a time, from top to bottom.</p></details>
+      <details><summary>Is my PDF uploaded anywhere?</summary>
+        <p>No. The PDF is opened and processed inside your browser and is never uploaded to our servers. There is no account, no tracking and no ads. See the <a href="privacy.html">privacy policy</a>.</p></details>
+      <details><summary>Does it work offline?</summary>
+        <p>It depends on the voice. Your PDF is always processed in the browser, but browser voices such as "Google" voices in Chrome need an internet connection. Voices installed on your computer usually work without one.</p></details>
+      <details><summary>Which voices can I use?</summary>
+        <p>Any text-to-speech voice built into your browser or installed on Windows, macOS or ChromeOS. The extension picks a voice that matches the language of your document, and you can change it at any time.</p></details>
+      <details><summary>Can it read scanned PDFs?</summary>
+        <p>Not yet. A scanned PDF is a set of page images with no real text inside, so there is nothing to read aloud.</p></details>
+      <details><summary>What is the biggest PDF it can read?</summary>
+        <p>Files up to 50 MB. The free version reads the first 4 pages; PRO reads documents up to 100 pages.</p></details>
+      <details><summary>Can I get a refund?</summary>
+        <p>Yes. PRO comes with a 30-day money-back guarantee. Write to <a href="mailto:client.care@tutamail.com?subject=Read%20PDF%20Aloud%20refund">client.care@tutamail.com</a>.</p></details>
+    </section>
+
+    <section class="wrap section">
+      <div class="cta">
+        <img src="icon.png" alt="" width="56" height="56">
+        <div>
+          <h2>Start listening to your PDFs</h2>
+          <p>Free for the first 4 pages of every document. No account needed.</p>
+        </div>
+        <a class="btn btn-primary btn-lg store-link" href="https://chromewebstore.google.com/detail/read-pdf-aloud-pdf-text-t/dpombnoddjohiickoanmelbkcdlemaca?utm_source=site&amp;utm_medium=footer-cta">Add to Chrome — free</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap foot-row">
+      <span>Read PDF Aloud · Vcoder Studio</span>
+      <a href="privacy.html">Privacy policy</a>
+      <a href="mailto:client.care@tutamail.com?subject=Read%20PDF%20Aloud">Contact</a>
+    </div>
+  </footer>
+
+  <script src="demo.js"></script>
+</body>
+</html>
